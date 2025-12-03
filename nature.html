@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BBC Earth | Nature</title>
+  <link rel="stylesheet" href="css/nature.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <div class="nav__data">
+        <a href="index.html" class="nav__logo">
+          <img src="images/header_bbc.png" alt="" class="bbc-logo">
+        </a>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line nav__burger"></i>
+          <i class="ri-close-line nav__close"></i>
+        </div>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Animals<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+            <ul class="dropdown__menu">
+              <li><a href="animal.html" class="dropdown__link">Mammals</a></li>
+              <li><a href="animal.html" class="dropdown__link">Birds</a></li>
+              <li><a href="animal.html" class="dropdown__link">Fish</a></li>
+              <li><a href="animal.html" class="dropdown__link">Reptiles</a></li>
+              <li><a href="animal.html" class="dropdown__link">Insects</a></li>
+              <li><a href="animal.html" class="dropdown__link">Molluscs</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#" class="nav__link">Nature</a></li>
+          <li><a href="#" class="nav__link">Science</a></li>
+          <li><a href="#" class="nav__link">Sustainability</a></li>
+
+          <li class="dropdown__item">
+            <div class="nav__link">
+              Users <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+            <ul class="dropdown__menu">
+              <li><a href="#" class="dropdown__link">Podcasts</a></li>
+              <li><a href="#" class="dropdown__link">Shop</a></li>
+              <li><a href="#" class="dropdown__link">Events</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#" class="nav__link">Shows</a></li>
+          <li><a href="#" class="nav__link">Kids</a></li>
+          <li><a href="#" class="nav__link">Store</a></li>
+          <li><a href="#" class="nav__link">Get involved</a></li>
+          <li><a href="#newsletter" class="nav__link"><span class="mail">✉</span> Sign up to Newsletter</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-top container">
+      <h1 class="page-title">Nature</h1>
+      <p class="lead">Discover the wonders of our natural world through stories, quizzes, and videos that showcase the
+        planet’s most
+        incredible life forms.
+      </p>
+      <section class="section">
+        <div class="section-head">
+          <h2>Featured articles</h2>
+        </div>
+        <div class="articles-grid">
+          <div class="articles-large">
+            <img src="images/geography.png" alt="">
+            <div class="hero-overlay">
+              <h4>Landscapes • Article</h4>
+              <h3>Extreme Deserts with Peter Coskun</h3>
+            </div>
+          </div>
+
+          <div class="articles-small">
+            <div class="card small">
+              <img src="images/geography2.png" alt="">
+              <div class="meta">Oceans • Article</div>
+              <h3>Extreme Oceans with Cristina Mittermeier</h3>
+            </div>
+
+            <div class="card small">
+              <img src="images/geography3.png" alt="">
+              <div class="meta">Oceans • Article</div>
+              <h3>Our oceans and the fight against climate change</h3>
+            </div>
+
+            <div class="card small">
+              <img src="images/geography4.png" alt="">
+              <div class="meta">Animals • Article</div>
+              <h3>The ocean’s most dedicated mothers</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section videos">
+        <div class="section-head">
+          <h2>Featured Videos</h2>
+        </div>
+
+        <div class="videos-grid">
+          <div class="videos-large">
+            <a href="https://youtu.be/EF8C4v7JIbA"><img src="images/video1.png" alt=""></a>
+          </div>
+
+          <div class="videos-small">
+            <div class="card small">
+              <a href="https://youtu.be/eIt0ub7PhWY"><img src="images/video2.png" alt=""></a>
+              <div class="meta">Seven Worlds, One Planet</div>
+              <h3>Puma vs guanaco</h3>
+            </div>
+
+            <div class="card small">
+              <a href="https://youtu.be/h4pxLHG0Wzs"><img src="images/video3.png" alt=""></a>
+              <div class="meta">Blue Planet II</div>
+              <h3>Fish vs bird</h3>
+            </div>
+
+            <div class="card small">
+              <a href="https://youtu.be/UQKC5pZ0FG8"><img src="images/video4.png" alt=""></a>
+              <h3>Arctic wolf hunts drove of Arctic hares</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section quiz">
+        <div class="section-head">
+          <h2>QUIZZES</h2>
+        </div>
+
+        <div class="quiz-grid">
+          <div class="quiz-large">
+            <div class="card large">
+              <img src="images/quiz1.png" alt="">
+              <div class="meta">QUIZ</div>
+              <h3>Which chonky animal are you?</h3>
+            </div>
+
+            <div class="card large">
+              <img src="images/quiz2.png" alt="">
+              <div class="meta">QUIZ</div>
+              <h3>Which Dynasties family are you?</h3>
+            </div>
+          </div>
+
+          <div class="quiz-small">
+            <div class="card small">
+              <img src="images/quiz3.png" alt="">
+              <div class="meta">QUIZ</div>
+              <h3>A, B, or sea</h3>
+            </div>
+
+            <div class="card small">
+              <img src="images/quiz4.png" alt="">
+              <div class="meta">QUIZ</div>
+              <h3>Which clever animal are you?</h3>
+            </div>
+
+            <div class="card small">
+              <img src="images/quiz5.png" alt="">
+              <div class="meta">QUIZ</div>
+              <h3>What kind of dog are you?</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+  </section>
+
+  <section class="section stories">
+    <div class="section-head1">
+      <h2>All Nature Stories</h2>
+    </div>
+    <div class="filters">
+      <a href="#">All</a>
+      <a href="#">Animals</a>
+      <a href="#">Mammals</a>
+      <a href="#">Birds</a>
+      <a href="#">Amphibians & Reptiles</a>
+      <a href="#">Insects</a>
+      <a href="#">Annelids</a>
+      <a href="#">More</a>
+    </div>
+    <div class="stories-grid">
+      <div class="stories-small">
+        <div class="card small">
+          <img src="images/naturestore1.png" alt="">
+          <div class="meta">Article</div>
+          <h3>Wildlife Photographer of the Year 2020</h3>
+        </div>
+
+        <div class="card small">
+          <img src="images/naturestore2.png" alt="">
+          <div class="meta">Article</div>
+          <h3>Prepare for a wildlife laugh</h3>
+        </div>
+
+        <div class="card small">
+          <img src="images/naturestore3.png" alt="">
+          <div class="meta">Article</div>
+          <h3>The extraordinary ways that animals sleep</h3>
+        </div>
+
+        <div class="card small">
+          <img src="images/naturestore4.png" alt="">
+          <div class="meta">Article</div>
+          <h3>Why do animals play?</h3>
+        </div>
+
+        <div class="card small">
+          <img src="images/naturestore5.png" alt="">
+          <div class="meta">Article</div>
+          <h3>The strangest life cycles in nature!</h3>
+        </div>
+
+        <div class="card small">
+          <img src="images/naturestore6.png" alt="">
+          <div class="meta">Article</div>
+          <h3>Meet these incredible animal breathers!</h3>
+        </div>
+        <div class="card small">
+          <img src="images/naturestore7.png" alt="">
+          <div class="meta">Article</div>
+          <h3>Creating in lockdown</h3>
+        </div>
+
+        <div class="card small">
+          <img src="images/naturestore8.png" alt="">
+          <div class="meta">Article</div>
+          <h3>Backgrounds for meetings under the sea</h3>
+        </div>
+
+        <div class="card small">
+          <img src="images/naturestore9.png" alt="">
+          <div class="meta">Article</div>
+          <h3>Experience the ocean like never before</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter-section" id="newsletter">
+    <div class="overlay">
+      <div class="newsletter-left">
+        <h4>BBC EARTH NEWSLETTER</h4>
+        <h1>BBC Earth delivered<br>direct to your inbox</h1>
+        <p>Sign up to receive news, updates and exclusives from BBC Earth and related content from BBC Studios by email.
+        </p>
+      </div>
+      <form class="newsletter-form">
+        <label>First name</label>
+        <input type="text" placeholder="Enter your first name" />
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email here" />
+        <label>Country</label>
+        <select id="country-select">
+          <option>Select your country</option>
+        </select>
+        <p class="privacy">Your information will be used in accordance with our privacy policy. You can unsubscribe at
+          any time.</p>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-left">
+        <img src="images/footer_bbc.png" alt="BBC Logo" class="bbc-logo">
+        <a href="#">Contact</a>
+        <a href="#">About BBC Studios</a>
+        <a href="#">Careers</a>
+      </div>
+
+      <div class="footer-center">
+        <a href="#" class="newsletter-link">
+          <i class="icon-mail"></i> Sign up to the BBC Earth Newsletter
+        </a>
+      </div>
+
+      <div class="footer-right">
+        <span>Follow BBC Earth</span>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>This is a commercial website from BBC Studios.<br>
+        BBC is a trademark of the British Broadcasting Corporation. Logos © 1996.</p>
+
+      <div class="footer-links">
+        <a href="#">Terms and conditions</a>
+        <a href="#">Privacy policy</a>
+        <a href="#">Cookies policy</a>
+        <a href="#">Code of conduct</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
